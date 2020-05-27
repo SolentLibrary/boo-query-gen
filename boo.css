@@ -30,7 +30,7 @@ textarea {
 }
 
 /* These lines to ensure the correct font is used */
-#booWidget{
+#booWidget p{
 	font-family:verdana;
 	font-size:14px;
 }
