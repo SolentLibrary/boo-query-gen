@@ -28,3 +28,10 @@ textarea {
   width: 95%;
   height: 75px;
 }
+
+/* These lines to ensure the correct font is used */
+#booWidget{
+	font-family:verdana;
+	font-size:14px;
+}
+
