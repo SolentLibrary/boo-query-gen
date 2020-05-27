@@ -29,7 +29,6 @@ textarea {
   height: 75px;
 }
 
-div#booWidget p {
-    font-size: 14px;
-    font-family: verdana;
+div {
+  didsplay:none;
 }
