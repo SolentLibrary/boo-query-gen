@@ -75,11 +75,14 @@ function addConcept() {
     var div = document.createElement("div");
     div.setAttribute("class", "booContainer");
 
-    //create h4 and add text
+    //create h4, label, and add text
     var h4 = document.createElement("h4");
     var count = document.querySelectorAll(".concept");
     var h4Text = "Concept " + (count.length + 1);
-    h4.appendChild(document.createTextNode(h4Text));
+    var label = document.createElement("label");
+    label.setAttribute("for", h4Text);
+    h4.appendChild(label);
+    label.appendChild(document.createTextNode(h4Text));
 
     //create textarea
     var textarea = document.createElement("textarea");
