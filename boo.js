@@ -88,7 +88,7 @@ function addConcept() {
     //create textarea
     var textarea = document.createElement("textarea");
     textarea.setAttribute("class", "concept");
-    textarea.setAttribute("id", "idText);
+    textarea.setAttribute("id", idText);
 
     //append new elements
     container.appendChild(div);
