@@ -80,13 +80,15 @@ function addConcept() {
     var count = document.querySelectorAll(".concept");
     var h4Text = "Concept " + (count.length + 1);
     var label = document.createElement("label");
-    label.setAttribute("for", h4Text);
+    var idText = "concept" + (count.length + 1);
+    label.setAttribute("for", idText);
     h4.appendChild(label);
     label.appendChild(document.createTextNode(h4Text));
 
     //create textarea
     var textarea = document.createElement("textarea");
     textarea.setAttribute("class", "concept");
+    textarea.setAttribute("id", "idText);
 
     //append new elements
     container.appendChild(div);
